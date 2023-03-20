@@ -1,8 +1,34 @@
 ## Links to the Shiny App:
 * [GitHub](https://github.com/511332544/Shiny-App-Analysis.git)
-* [shinyapps.io](https://yufan-wu.shinyapps.io/Survival_Analysis/)
+* [shinyapps.io]()
 
-## Instructions
+# Instructions
+The website mainly includes three parts:  variation analysis, enrichment analysis, and survival analysis
+
+## 1. Variation Analysis
+
+### Data
+
+-   Upload a CSV file
+
+Users can use the application in their own RNA-seq or microarray expression data, and download the results.  Built-in visualization tools include box plots, heatmaps and volcano plots.  Please download the sample data (expression and pheno files) provided to test the application.
+
+
+
+## 2. Enrichment Analysis
+### Data
+
+-   Upload a CSV file
+-   Choose `p-value`、`q-value` and `p-adjust` variables for enrichment analysis
+
+Users can use the analyzer to perform KEGG and Reactome pathway enrichment analyses in their gene list matrix and download the results. Built-in visualization tools include DotPlot, Table, Barplot, Network
+
+
+
+
+
+
+## 3. Survival Analysis
 
 ### Data
 
